@@ -14,6 +14,13 @@ const AnimationsService = {
       .select('*')
       .where({ id })
       .first()
+  },
+  getByName(db, name) {
+    return db
+      .from('opal As icon')
+      .select('*')
+      .where({ name })
+      .first()
   }
 }
 
