@@ -16,7 +16,9 @@ animationsRouter
       .then(icons => {
         res.json(icons.map(icon => ({
           id: icon.id,
-          json: icon.json
+          name: icon.name,
+          file: icon.file,
+          type: icon.file_type
         })))
       })
       .catch(next)
@@ -938,11 +940,11 @@ animationsRouter
 
 
 animationsRouter
-  .route('/:animation_id')
+  .route('/:animation_name')
   .all((req, res, next) => {
-    AnimationsService.getById(
+    AnimationsService.getByName(
       req.app.get('db'),
-      req.params.animation_id
+      req.params.animation_name
     )
     .then(file => {
       if (!file) {
@@ -958,9 +960,9 @@ animationsRouter
     .catch(next)
   })
   .get((req, res, next) => {
-    AnimationsService.getById(
+    AnimationsService.getByName(
       req.app.get('db'),
-      req.params.animation_id
+      req.params.animation_name
     )
     .then(file => {
       if (!file) {
