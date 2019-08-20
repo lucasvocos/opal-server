@@ -27,15 +27,14 @@ animationsRouter
     const { lottieColor, duration, stroke, scale } = req.body
 
     function editJSON(file, lottieColor, scale, stroke, duration) {
-      // Event Handler + POST request
-        // let file = JSON.parse(opalFile)
+
 
         file.op = 30;
         let strokeAdjusted = stroke.replace('pt', '')*20
         let height = parseInt(scale.replace('px', ''))
         let outputheight = ((height/24)*100).toFixed(2)
         let jsonsize = [outputheight, outputheight, 100]
-        let durationAdjusted = duration.replace('ms','')
+        // let durationAdjusted = duration.replace('ms','')
         let framerate = parseFloat(((file.op/duration)*1000), 10);
 
         let lottieFramerate = Math.round(framerate * 1e2) / 1e2;
