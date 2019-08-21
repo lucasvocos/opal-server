@@ -30,8 +30,10 @@ animationsRouter
 
 
         file.op = 30;
-        let strokeAdjusted = stroke.replace('pt', '')*20
-        let height = parseInt(scale.replace('px', ''))
+        // let strokeAdjusted = stroke.replace('pt', '')*20
+        let strokeAdjusted = stroke*20
+        // let height = parseInt(scale.replace('px', ''))
+        let height = parseInt(scale)
         let outputheight = ((height/24)*100).toFixed(2)
         let jsonsize = [outputheight, outputheight, 100]
         // let durationAdjusted = duration.replace('ms','')
