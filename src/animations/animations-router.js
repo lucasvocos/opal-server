@@ -305,6 +305,8 @@ animationsRouter
         break;
       case 'Dots_Horizontal_Build':
       case 'Dots_Horizontal_Static':
+      case 'Dots_Horizontal_Build_OpenPathSolve':
+      case 'Dots_Horizontal_Build_DotSolve':
         file.layers[1].shapes[0].it[1].c.k = lottieColor;
         file.layers[1].shapes[0].it[2].c.k = lottieColor;
         file.layers[2].shapes[0].it[1].c.k = lottieColor;
@@ -347,6 +349,7 @@ animationsRouter
         break;
       case 'Edit_Build':
       case 'Edit_Static':
+      case 'Edit_Build_480_03':
         file.layers[2].shapes[0].it[1].c.k = lottieColor;
         file.layers[3].shapes[0].it[1].c.k = lottieColor;
         file.layers[4].shapes[0].it[1].c.k = lottieColor;
