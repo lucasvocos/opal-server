@@ -996,8 +996,9 @@ animationsRouter
         break;
       default:
 
-     return file
+
   }
+  return file 
 }
     AnimationsService.getAllFiles(req.app.get('db'))
       .then(icons => {
