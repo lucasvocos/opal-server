@@ -435,16 +435,16 @@ animationsRouter
         break;
       case 'Image_Add_Build':
 
-        file.layers[1].shapes[0].it[1].c.k = lottieColor;
-        file.layers[1].shapes[0].it[2].c.k = lottieColor;
-        file.layers[2].shapes[0].it[1].c.k = lottieColor;
-        file.layers[2].shapes[0].it[2].c.k = lottieColor;
-        file.layers[4].shapes[0].it[1].c.k = lottieColor;
-        file.layers[5].shapes[2].c.k = lottieColor;
-        file.layers[1].shapes[0].it[1].w.k = strokeAdjusted;
-        file.layers[2].shapes[0].it[1].w.k = strokeAdjusted;
-        file.layers[4].shapes[0].it[1].w.k = strokeAdjusted;
-        file.layers[5].shapes[2].w.k = strokeAdjusted;
+      file.layers[1].shapes[0].it[1].c.k = lottieColor;
+      file.layers[1].shapes[0].it[2].c.k = lottieColor;
+      file.layers[2].shapes[0].it[1].c.k = lottieColor;
+      file.layers[2].shapes[0].it[2].c.k = lottieColor;
+      file.layers[4].shapes[0].it[1].c.k = lottieColor;
+      file.layers[5].shapes[2].c.k = lottieColor;
+      file.layers[1].shapes[0].it[1].w.k = strokeAdjusted;
+      file.layers[2].shapes[0].it[1].w.k = strokeAdjusted;
+      file.layers[4].shapes[0].it[1].w.k = strokeAdjusted;
+      file.layers[5].shapes[2].w.k = strokeAdjusted;
 
       case 'Image_Add_Static':
         console.log(`Image Add Static`);
