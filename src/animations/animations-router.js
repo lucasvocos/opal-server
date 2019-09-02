@@ -434,18 +434,6 @@ animationsRouter
         file.layers[4].shapes[0].it[1].w.k = strokeAdjusted;
         break;
       case 'Image_Add_Build':
-      // case 'Image_Add_Static':
-      //   file.layers[2].shapes[0].it[1].c.k = lottieColor;
-      //   file.layers[3].shapes[0].it[1].c.k = lottieColor;
-      //   file.layers[3].shapes[1].it[1].c.k = lottieColor;
-      //   file.layers[3].shapes[2].c.k = lottieColor;
-      //   file.layers[4].shapes[2].c.k = lottieColor;
-      //   file.layers[5].shapes[0].it[1].c.k = lottieColor;
-      //   file.layers[5].shapes[0].it[2].c.k = lottieColor;
-      //   file.layers[2].shapes[0].it[1].w.k = strokeAdjusted;
-      //   file.layers[3].shapes[2].w.k = strokeAdjusted;
-      //   file.layers[4].shapes[2].w.k = strokeAdjusted;
-      //   file.layers[5].shapes[0].it[1].w.k = strokeAdjusted;
         file.layers[1].shapes[0].it[1].c.k = lottieColor;
         file.layers[1].shapes[0].it[2].c.k = lottieColor;
         file.layers[2].shapes[0].it[1].c.k = lottieColor;
@@ -457,8 +445,20 @@ animationsRouter
         file.layers[4].shapes[0].it[1].w.k = strokeAdjusted;
         file.layers[5].shapes[2].w.k = strokeAdjusted;
         break;
+      case 'Image_Add_Static':
+        file.layers[2].shapes[0].it[1].c.k = lottieColor;
+        file.layers[3].shapes[0].it[1].c.k = lottieColor;
+        file.layers[3].shapes[1].it[1].c.k = lottieColor;
+        file.layers[3].shapes[2].c.k = lottieColor;
+        file.layers[4].shapes[2].c.k = lottieColor;
+        file.layers[5].shapes[0].it[1].c.k = lottieColor;
+        file.layers[5].shapes[0].it[2].c.k = lottieColor;
+        file.layers[2].shapes[0].it[1].w.k = strokeAdjusted;
+        file.layers[3].shapes[2].w.k = strokeAdjusted;
+        file.layers[4].shapes[2].w.k = strokeAdjusted;
+        file.layers[5].shapes[0].it[1].w.k = strokeAdjusted;
+        break;
       case 'Image_Build':
-      // case 'Image_Static':
         file.layers[1].shapes[0].it[1].c.k = lottieColor;
         file.layers[1].shapes[0].it[2].c.k = lottieColor;
         file.layers[2].shapes[0].it[1].c.k = lottieColor;
@@ -468,8 +468,17 @@ animationsRouter
         file.layers[2].shapes[0].it[1].w.k = strokeAdjusted;
         file.layers[3].shapes[0].it[1].w.k = strokeAdjusted;
         break;
+      case 'Image_Static':
+        file.layers[1].shapes[0].it[1].c.k = lottieColor;
+        file.layers[1].shapes[1].it[1].c.k = lottieColor;
+        file.layers[1].shapes[2].c.k = lottieColor;
+        file.layers[2].shapes[0].it[1].c.k = lottieColor;
+        file.layers[3].shapes[0].it[1].c.k = lottieColor;
+        file.layers[1].shapes[2].w.k = strokeAdjusted;
+        file.layers[2].shapes[0].it[1].w.k = strokeAdjusted;
+        file.layers[3].shapes[0].it[1].w.k = strokeAdjusted;
+        break;
       case 'ImageGallery_Build':
-      // case 'ImageGallery_Static':
         file.layers[1].shapes[0].it[1].c.k = lottieColor;
         file.layers[1].shapes[0].it[2].c.k = lottieColor;
         file.layers[1].shapes[1].it[1].c.k = lottieColor;
@@ -478,6 +487,15 @@ animationsRouter
         file.layers[3].shapes[0].it[1].c.k = lottieColor;
         file.layers[1].shapes[0].it[1].w.k = strokeAdjusted;
         file.layers[1].shapes[1].it[1].w.k = strokeAdjusted;
+        file.layers[2].shapes[0].it[1].w.k = strokeAdjusted;
+        file.layers[3].shapes[0].it[1].w.k = strokeAdjusted;
+        break;
+      case 'ImageGallery_Static':
+        file.layers[1].shapes[3].c.k = lottieColor;
+        file.layers[1].shapes[4].c.k = lottieColor;
+        file.layers[2].shapes[0].it[1].c.k = lottieColor;
+        file.layers[3].shapes[0].it[1].c.k = lottieColor;
+        file.layers[1].shapes[3].w.k = strokeAdjusted;
         file.layers[2].shapes[0].it[1].w.k = strokeAdjusted;
         file.layers[3].shapes[0].it[1].w.k = strokeAdjusted;
         break;
@@ -567,7 +585,12 @@ animationsRouter
         file.layers[1].shapes[1].w.k = strokeAdjusted;
         break;
       case 'Notifications_Build':
-      // case 'Notifications_Static':
+        file.layers[1].shapes[0].it[1].c.k = lottieColor;
+        file.layers[2].shapes[1].c.k = lottieColor;
+        file.layers[1].shapes[0].it[1].w.k = strokeAdjusted;
+        file.layers[2].shapes[1].w.k = strokeAdjusted;
+        break;
+      case 'Notifications_Static':
         file.layers[1].shapes[0].it[1].c.k = lottieColor;
         file.layers[2].shapes[1].c.k = lottieColor;
         file.layers[1].shapes[0].it[1].w.k = strokeAdjusted;
