@@ -434,29 +434,6 @@ animationsRouter
         file.layers[4].shapes[0].it[1].w.k = strokeAdjusted;
         break;
       case 'Image_Add_Build':
-      console.log(`-------------------`);
-      console.log(`Image Add Build`);
-      console.log(`file.layers[1].shapes[0].it[1].c.k: ${file.layers[1].shapes[0].it[1].c.k}`)
-      console.log(`file.layers[1].shapes[0].it[2].c.k: ${file.layers[1].shapes[0].it[2].c.k}`)
-      console.log(`file.layers[2].shapes[0].it[1].c.k: ${file.layers[2].shapes[0].it[1].c.k}`)
-      console.log(`file.layers[2].shapes[0].it[2].c.k: ${file.layers[2].shapes[0].it[2].c.k}`)
-      console.log(`file.layers[4].shapes[0].it[1].c.k: ${file.layers[4].shapes[0].it[1].c.k}`)
-      console.log(`file.layers[5].shapes[2].c.k: ${file.layers[5].shapes[2].c.k}`)
-      console.log(`file.layers[1].shapes[0].it[1].w.k: ${file.layers[1].shapes[0].it[1].w.k}`)
-      console.log(`file.layers[2].shapes[0].it[1].w.k: ${file.layers[2].shapes[0].it[1].w.k}`)
-      console.log(`file.layers[4].shapes[0].it[1].w.k: ${file.layers[4].shapes[0].it[1].w.k}`)
-      console.log(`file.layers[5].shapes[2].w.k: ${file.layers[5].shapes[2].w.k}`)
-      // file.layers[1].shapes[0].it[1].c.k = lottieColor;
-      // file.layers[1].shapes[0].it[2].c.k = lottieColor;
-      // file.layers[2].shapes[0].it[1].c.k = lottieColor;
-      // file.layers[2].shapes[0].it[2].c.k = lottieColor;
-      // file.layers[4].shapes[0].it[1].c.k = lottieColor;
-      // file.layers[5].shapes[2].c.k = lottieColor;
-      // file.layers[1].shapes[0].it[1].w.k = strokeAdjusted;
-      // file.layers[2].shapes[0].it[1].w.k = strokeAdjusted;
-      // file.layers[4].shapes[0].it[1].w.k = strokeAdjusted;
-      // file.layers[5].shapes[2].w.k = strokeAdjusted;
-
       case 'Image_Add_Static':
         file.layers[2].shapes[0].it[1].c.k = lottieColor;
         file.layers[3].shapes[0].it[1].c.k = lottieColor;
@@ -471,26 +448,6 @@ animationsRouter
         file.layers[5].shapes[0].it[1].w.k = strokeAdjusted;
         break;
       case 'Image_Build':
-        console.log(`-------`);
-        console.log(`Image Build`);
-        console.log(`file.layers[1].shapes[0].it[1].c.k: ${file.layers[1].shapes[0].it[1].c.k}`)
-        console.log(`file.layers[1].shapes[0].it[2].c.k: ${file.layers[1].shapes[0].it[2].c.k}`)
-        console.log(`file.layers[2].shapes[0].it[1].c.k: ${file.layers[2].shapes[0].it[1].c.k}`)
-        console.log(`file.layers[2].shapes[0].it[2].c.k: ${file.layers[2].shapes[0].it[2].c.k}`)
-        console.log(`file.layers[3].shapes[0].it[1].c.k: ${file.layers[3].shapes[0].it[1].c.k}`)
-        console.log(`file.layers[1].shapes[0].it[1].w.k: ${file.layers[1].shapes[0].it[1].w.k}`)
-        console.log(`file.layers[2].shapes[0].it[1].w.k: ${file.layers[2].shapes[0].it[1].w.k}`)
-        console.log(`file.layers[3].shapes[0].it[1].w.k: ${file.layers[3].shapes[0].it[1].w.k}`)
-        // file.layers[1].shapes[0].it[1].c.k = lottieColor;
-        // file.layers[1].shapes[0].it[2].c.k = lottieColor;
-        // file.layers[2].shapes[0].it[1].c.k = lottieColor;
-        // file.layers[2].shapes[0].it[2].c.k = lottieColor;
-        // file.layers[3].shapes[0].it[1].c.k = lottieColor;
-        // file.layers[1].shapes[0].it[1].w.k = strokeAdjusted;
-        // file.layers[2].shapes[0].it[1].w.k = strokeAdjusted;
-        // file.layers[3].shapes[0].it[1].w.k = strokeAdjusted;
-
-
       case 'Image_Static':
         file.layers[1].shapes[0].it[1].c.k = lottieColor;
         file.layers[1].shapes[1].it[1].c.k = lottieColor;
@@ -502,30 +459,6 @@ animationsRouter
         file.layers[3].shapes[0].it[1].w.k = strokeAdjusted;
         break;
       case 'ImageGallery_Build':
-        console.log(`----------\n ImageGallery_Build`);
-        console.log(`file.layers[1].shapes[0].it[1].c.k: ${file.layers[1].shapes[0].it[1].c.k}`)
-        console.log(`file.layers[1].shapes[0].it[2].c.k: ${file.layers[1].shapes[0].it[2].c.k}`)
-        console.log(`file.layers[1].shapes[1].it[1].c.k: ${file.layers[1].shapes[1].it[1].c.k}`)
-        console.log(`file.layers[1].shapes[1].it[2].c.k: ${file.layers[1].shapes[1].it[2].c.k}`)
-        console.log(`file.layers[2].shapes[0].it[1].c.k: ${file.layers[2].shapes[0].it[1].c.k}`)
-        console.log(`file.layers[3].shapes[0].it[1].c.k: ${file.layers[3].shapes[0].it[1].c.k}`)
-        console.log(`file.layers[1].shapes[0].it[1].w.k: ${file.layers[1].shapes[0].it[1].w.k}`)
-        console.log(`file.layers[1].shapes[1].it[1].w.k: ${file.layers[1].shapes[1].it[1].w.k}`)
-        console.log(`file.layers[2].shapes[0].it[1].w.k: ${file.layers[2].shapes[0].it[1].w.k}`)
-        console.log(`file.layers[3].shapes[0].it[1].w.k: ${file.layers[3].shapes[0].it[1].w.k}`)
-        // file.layers[1].shapes[0].it[1].c.k = lottieColor;
-        // file.layers[1].shapes[0].it[2].c.k = lottieColor;
-        // file.layers[1].shapes[1].it[1].c.k = lottieColor;
-        // file.layers[1].shapes[1].it[2].c.k = lottieColor;
-        // file.layers[2].shapes[0].it[1].c.k = lottieColor;
-        // file.layers[3].shapes[0].it[1].c.k = lottieColor;
-        // file.layers[1].shapes[0].it[1].w.k = strokeAdjusted;
-        // file.layers[1].shapes[1].it[1].w.k = strokeAdjusted;
-        // file.layers[2].shapes[0].it[1].w.k = strokeAdjusted;
-        // file.layers[3].shapes[0].it[1].w.k = strokeAdjusted;
-        break;
-
-
       case 'ImageGallery_Static':
         file.layers[1].shapes[3].c.k = lottieColor;
         file.layers[1].shapes[4].c.k = lottieColor;
@@ -621,16 +554,6 @@ animationsRouter
         file.layers[1].shapes[1].w.k = strokeAdjusted;
         break;
       case 'Notifications_Build':
-        console.log(`======= \n Notifcations Build`);
-        console.log(`file.layers[1].shapes[0].it[1].c.k: ${file.layers[1].shapes[0].it[1].c.k}`)
-        console.log(`file.layers[2].shapes[1].c.k: ${file.layers[2].shapes[1].c.k}`)
-        console.log(`file.layers[1].shapes[0].it[1].w.k: ${file.layers[1].shapes[0].it[1].w.k}`)
-        console.log(`file.layers[2].shapes[1].w.k: ${file.layers[2].shapes[1].w.k}`)
-        // file.layers[1].shapes[0].it[1].c.k = lottieColor;
-        // file.layers[2].shapes[1].c.k = lottieColor;
-        // file.layers[1].shapes[0].it[1].w.k = strokeAdjusted;
-        // file.layers[2].shapes[1].w.k = strokeAdjusted;
-        break;
       case 'Notifications_Static':
         file.layers[1].shapes[0].it[1].c.k = lottieColor;
         file.layers[2].shapes[1].c.k = lottieColor;
@@ -996,9 +919,8 @@ animationsRouter
         break;
       default:
 
-
+     return file
   }
-  return file 
 }
     AnimationsService.getAllFiles(req.app.get('db'))
       .then(icons => {
