@@ -375,8 +375,16 @@ animationsRouter
         file.layers[1].shapes[1].w.k = strokeAdjusted;
         file.layers[2].shapes[1].w.k = strokeAdjusted;
         break;
-      case 'Eye_Off_Build':
+
       case 'Eye_Off_Static':
+        file.layers[1].shapes[1].c.k = lottieColor;
+        file.layers[2].shapes[1].c.k = lottieColor;
+        file.layers[3].shapes[1].c.k = lottieColor;
+        file.layers[1].shapes[1].w.k = strokeAdjusted;
+        file.layers[2].shapes[1].w.k = strokeAdjusted;
+        file.layers[3].shapes[1].w.k = strokeAdjusted;
+        break;
+      case 'Eye_Off_Build':
         file.layers[1].shapes[1].c.k = lottieColor;
         file.layers[2].shapes[1].c.k = lottieColor;
         file.layers[3].shapes[1].c.k = lottieColor;
