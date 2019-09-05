@@ -535,8 +535,19 @@ animationsRouter
         file.layers[1].shapes[0].it[1].w.k = strokeAdjusted;
         file.layers[2].shapes[0].it[1].w.k = strokeAdjusted;
         break;
-      case 'Mail_Build':
       case 'Mail_Static':
+        file.layers[2].shapes[0].it[2].c.k = lottieColor;
+        file.layers[3].shapes[0].it[2].c.k = lottieColor;
+        file.layers[4].shapes[0].it[1].c.k = lottieColor;
+        file.layers[5].shapes[0].it[1].c.k = lottieColor;
+        file.layers[6].shapes[0].it[1].c.k = lottieColor;
+        file.layers[2].shapes[0].it[2].w.k = strokeAdjusted;
+        file.layers[3].shapes[0].it[2].w.k = strokeAdjusted;
+        file.layers[4].shapes[0].it[1].w.k = strokeAdjusted;
+        file.layers[5].shapes[0].it[1].w.k = strokeAdjusted;
+        file.layers[6].shapes[0].it[1].w.k = strokeAdjusted;
+        break;
+      case 'Mail_Build':
         file.layers[2].shapes[0].it[2].c.k = lottieColor;
         file.layers[3].shapes[0].it[2].c.k = lottieColor;
         file.layers[4].shapes[0].it[1].c.k = lottieColor;
@@ -772,7 +783,6 @@ animationsRouter
         file.layers[3].shapes[0].it[1].w.k = strokeAdjusted;
         file.layers[4].shapes[0].it[1].w.k = strokeAdjusted;
         break;
-      case 'Share_Build':
       case 'Share_Static':
         file.layers[3].shapes[1].c.k = lottieColor;
         file.layers[4].shapes[1].c.k = lottieColor;
@@ -785,7 +795,19 @@ animationsRouter
         file.layers[6].shapes[1].w.k = strokeAdjusted;
         file.layers[7].shapes[1].w.k = strokeAdjusted;
         break;
-      case 'Shuffle_Build':
+      case 'Share_Build':
+        file.layers[3].shapes[1].c.k = lottieColor;
+        file.layers[4].shapes[1].c.k = lottieColor;
+        file.layers[5].shapes[1].c.k = lottieColor;
+        file.layers[6].shapes[1].c.k = lottieColor;
+        file.layers[7].shapes[1].c.k = lottieColor;
+        file.layers[3].shapes[1].w.k = strokeAdjusted;
+        file.layers[4].shapes[1].w.k = strokeAdjusted;
+        file.layers[5].shapes[1].w.k = strokeAdjusted;
+        file.layers[6].shapes[1].w.k = strokeAdjusted;
+        file.layers[7].shapes[1].w.k = strokeAdjusted;
+      break;
+
       case 'Shuffle_Static':
         file.layers[1].shapes[0].it[1].c.k = lottieColor;
         file.layers[2].shapes[0].it[1].c.k = lottieColor;
@@ -798,6 +820,20 @@ animationsRouter
         file.layers[4].shapes[0].it[1].w.k = strokeAdjusted;
         file.layers[5].shapes[0].it[1].w.k = strokeAdjusted;
         break;
+
+      case 'Shuffle_Build':
+        file.layers[1].shapes[0].it[1].c.k = lottieColor;
+        file.layers[2].shapes[0].it[1].c.k = lottieColor;
+        file.layers[3].shapes[0].it[1].c.k = lottieColor;
+        file.layers[4].shapes[0].it[1].c.k = lottieColor;
+        file.layers[5].shapes[0].it[1].c.k = lottieColor;
+        file.layers[1].shapes[0].it[1].w.k = strokeAdjusted;
+        file.layers[2].shapes[0].it[1].w.k = strokeAdjusted;
+        file.layers[3].shapes[0].it[1].w.k = strokeAdjusted;
+        file.layers[4].shapes[0].it[1].w.k = strokeAdjusted;
+        file.layers[5].shapes[0].it[1].w.k = strokeAdjusted;
+        break;
+
       case 'Skip_Backward_Build':
       case 'Skip_Backward_Static':
         file.layers[1].shapes[2].c.k = lottieColor;
