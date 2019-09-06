@@ -30,19 +30,18 @@ animationsRouter
 
 
         file.op = 30;
-        // let strokeAdjusted = stroke.replace('pt', '')*20
         let strokeAdjusted = stroke*20
-        // let height = parseInt(scale.replace('px', ''))
         let height = parseInt(scale)
-        let outputheight = ((height/24)*100).toFixed(2)
+        let outputheight = parseInt(((height/24)*100).toFixed(2))
         let jsonsize = [outputheight, outputheight, 100]
-        // let durationAdjusted = duration.replace('ms','')
         let framerate = parseFloat(((file.op/duration)*1000), 10);
-
         let lottieFramerate = Math.round(framerate * 1e2) / 1e2;
-
         file.fr = lottieFramerate;
-        // file.layers[0].ks['s'].k = jsonsize;
+
+        if (file.layers[0].ks['s'].k) {
+          file.layers[0].ks['s'].k = jsonsize;
+        }
+        
         file.h = height;
         file.w = height;
 
