@@ -30,7 +30,8 @@ animationsRouter
 
 
         file.op = 30;
-        let strokeAdjusted = stroke*20
+        // let strokeAdjusted = stroke*20
+        let strokeAdjusted = stroke*1
         let height = parseInt(scale)
         let outputheight = parseInt(((height/24)*100).toFixed(2))
         let jsonsize = [outputheight, outputheight, 100]
@@ -41,7 +42,7 @@ animationsRouter
         if (file.layers[0].ks['s'].k) {
           file.layers[0].ks['s'].k = jsonsize;
         }
-        
+
         file.h = height;
         file.w = height;
 
