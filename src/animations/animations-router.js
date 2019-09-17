@@ -3,6 +3,7 @@ const xss = require('xss')
 const path = require('path');
 const fs = require('fs');
 const AnimationsService = require('./animations-service')
+const { requireAuth } = require('../middleware/require-auth')
 
 const animationsRouter = express.Router()
 const bodyParser = express.json({
@@ -23,7 +24,7 @@ animationsRouter
       })
       .catch(next)
   })
-  .post(bodyParser, (req, res, next) => {
+  .post(bodyParser, requireAuth, (req, res, next) => {
     const { lottieColor, duration, stroke, scale } = req.body
 
     function editJSON(file, lottieColor, scale, stroke, duration) {
