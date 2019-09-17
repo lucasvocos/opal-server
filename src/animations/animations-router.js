@@ -827,11 +827,11 @@ animationsRouter
         file.layers[3].shapes[0].it[1].c.k = lottieColor;
         file.layers[4].shapes[0].it[1].c.k = lottieColor;
         file.layers[5].shapes[0].it[1].c.k = lottieColor;
-        file.layers[1].shapes[0].it[1].w.k = strokeAdjusted;
         file.layers[2].shapes[0].it[1].w.k = strokeAdjusted;
         file.layers[3].shapes[0].it[1].w.k = strokeAdjusted;
         file.layers[4].shapes[0].it[1].w.k = strokeAdjusted;
         file.layers[5].shapes[0].it[1].w.k = strokeAdjusted;
+        file.layers[1].shapes[0].it[1].w.k = strokeAdjusted;
         break;
 
       case 'Skip_Backward_Build':
