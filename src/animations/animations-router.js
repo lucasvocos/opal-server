@@ -30,7 +30,7 @@ animationsRouter
     function editJSON(file, lottieColor, scale, stroke, duration) {
 
 
-        file.op = 30;
+        // file.op = 30;
 
         let height = parseInt(scale)
         let outputheight = parseInt(((height/24)*100).toFixed(2))
