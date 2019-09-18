@@ -1018,7 +1018,6 @@ animationsRouter
 
           )
           animations.forEach(json => {
-            // let opalFile = JSON.parse(json.file)
             editJSON(json.file, lottieColor, scale, stroke, duration)
           })
         })
